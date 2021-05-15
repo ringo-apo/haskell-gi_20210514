@@ -3,6 +3,8 @@ cabal-version: 1.12
 -- This file has been generated from package.yaml by hpack version 0.34.4.
 --
 -- see: https://github.com/sol/hpack
+--
+-- hash: 5001e2defef0029573e7af165bda6a3402d59b3066008b3a6b6f390caba70bff
 
 name:           my-project
 version:        0.1.0.0
@@ -30,8 +32,6 @@ library
       src
   build-depends:
       base >=4.7 && <5
-    , gi-gtk
-    , haskell-gi-base
   default-language: Haskell2010
 
 executable my-project-exe
@@ -43,8 +43,6 @@ executable my-project-exe
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
-    , gi-gtk
-    , haskell-gi-base
     , my-project
   default-language: Haskell2010
 
@@ -58,7 +56,5 @@ test-suite my-project-test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
-    , gi-gtk
-    , haskell-gi-base
     , my-project
   default-language: Haskell2010
