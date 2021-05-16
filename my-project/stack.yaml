@@ -40,15 +40,6 @@ extra-deps:
 - glib-0.13.8.1
 - cairo-0.13.8.1
 - pango-0.13.8.1
-#- haskell-gi-0.24.5
-#- haskell-gi-base-0.24.3
-#- gi-pango-1.0.23
-#- gi-harfbuzz-0.0.3
-#- gi-glib-2.0.24
-#- gi-gobject-2.0.24
-#- gi-gtk-2.0.22
-#- gi-gtk-3.0.37
-#
 - gi-gtk-3.0.37
 - gi-gdk-3.0.24
 - gi-gdkpixbuf-2.0.26
@@ -63,21 +54,6 @@ extra-deps:
 - haskell-gi-base-0.25.0
 - gi-glib-2.0.25
 - reactive-banana-1.2.1.0
-
-#drop-packages:
-#- gi-gtk
-#- gi-gdk
-#- gi-gdkpixbuf
-#- gi-gmodule
-#- gi-atk
-#- gi-cairo
-#- gi-gio
-#- gi-gobject
-#- gi-harfbuzz
-#- gi-pango
-#- haskell-gi
-#- haskell-gi-base
-#- glib
 
 # - acme-missiles-0.3
 # - git: https://github.com/commercialhaskell/stack.git
